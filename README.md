@@ -13,7 +13,6 @@ Database: Postgresql
 
 ORM: Hibernate
 
-Design Pattern: Repository
 
 Authentication: JWT
 
