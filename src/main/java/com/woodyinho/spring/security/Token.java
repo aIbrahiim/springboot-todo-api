@@ -20,7 +20,7 @@ public class Token {
     @Value("${jwt.expiration}")
     private long TOKEN_VALIDITY = 604800;
 
-    @Value("${jwt.expiration}")
+    @Value("${jwt.secret}")
     private String TOKEN_SECRET;
 
     public String generateToken(UserDetails userDetails){
